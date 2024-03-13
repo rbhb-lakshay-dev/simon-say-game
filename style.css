@@ -54,7 +54,7 @@ h2 {
 }
 
 #small-screen {
-  display: none;
+/*   display: none; */
 }
 
 @media (max-width: 470px) {
