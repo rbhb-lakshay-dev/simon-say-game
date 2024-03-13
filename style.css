@@ -46,7 +46,15 @@ body {
 }
 
 h2 {
-  margin-top: 5rem;
+  margin-top: 2rem;
+}
+
+#key {
+  display: none;
+}
+
+#small-screen {
+  display: none;
 }
 
 @media (max-width: 470px) {
@@ -60,6 +68,24 @@ h2 {
   }
   .line-one,
   .line-two {
+    display: flex;
+  }
+
+  .keypress {
+    display: flex;
+    flex-direction: column;
+    height: 11rem;
+    justify-content: center;
+    align-items: center;
+  }
+  #key {
+    display: flex;
+    width: 4rem;
+  }
+  #big-screen {
+    display: none;
+  }
+  #small-screen {
     display: flex;
   }
 }
